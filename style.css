@@ -32,28 +32,39 @@ body {
   justify-content: space-evenly;
 }
 
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rimg {
+  max-width: 20vh;
+  height: auto;
+}
+
 a {
   background-color: var(--color3);
   border-radius: 0.5vh;
-  padding: 1vh 5vh;
+  padding: 1.5vh 5vh;
   margin: 0.5vh 0.5vh;
   text-decoration: none;
   color: var(--color1);
   transition: 0.3s ease;
 }
+
 a:hover {
   background-color: #840014;
   scale: 1.1;
 }
 
-.info-container {
+.info-container,
+.Aboutbaby {
   padding: 3vh;
-  border-radius: 2vh;
-  background-color: var(--color3);
   margin-inline: 35vh;
   margin-block: 2vh;
   display: flex;
-  height: 40vh;
+  min-height: 30vh;
   flex-direction: column;
   align-items: center;
 }
@@ -63,6 +74,14 @@ a:hover {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-color: var(--color1);
+  border-block: 0.4vh solid var(--color4);
+}
+.Poem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .images::-webkit-scrollbar {
@@ -100,7 +119,7 @@ a:hover {
   padding: 20px;
 }
 
-img {
+.img {
   width: 200px;
   height: auto;
   flex-shrink: 0;
@@ -117,7 +136,7 @@ img {
   transition: 0.3s ease;
 }
 
-img:hover {
+.img:hover {
   scale: 1.1;
 }
 

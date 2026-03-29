@@ -4,10 +4,10 @@ const pieCtx = document.getElementById('pieChart');
 new Chart(pieCtx, {
   type: 'pie',
   data: {
-    labels: ['Food', 'Rent', 'Transport'],
+    labels: ['Thoughts', 'Cuts', 'No Cuts'],
     datasets: [{
-      data: [500, 1200, 300],
-      backgroundColor: ['red', 'blue', 'green']
+      data: [500, 200, 1000],
+      backgroundColor: ['grey', 'black', 'white']
     }]
   }
 });
@@ -18,11 +18,11 @@ const lineCtx = document.getElementById('lineChart');
 new Chart(lineCtx, {
   type: 'line',
   data: {
-    labels: ['Jan', 'Feb', 'Mar'],
+    labels: ['Early 2025', 'Mid 2025', 'Late 2025', 'New year', 'Present time'],
     datasets: [{
-      label: 'Expenses',
-      data: [2000, 1800, 2200],
-      borderColor: 'blue'
+      label: 'Cuts',
+      data: [100, 50, 120, 75, 0],
+      borderColor: 'black'
     }]
   }
 });
