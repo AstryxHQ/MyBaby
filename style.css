@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --color1: #F9F8F8;
+  --color2: #60AB9A;
+  --color3: #DC0D2C;
+  --color4: #191919;
+  --color5: #B118C8;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--color1);
+  font-weight: 650;
+  margin: 0;
+  background-color: var(--color3);
+}
+
+.titlediv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--color3);
+  height: 8vh;
+  align-items: center;
+  border-bottom: 0.2vh solid #e7e7e7;
+}
+
+.extradiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  background-color: var(--color3);
+  border-radius: 0.5vh;
+  padding: 1vh 5vh;
+  margin: 0.5vh 0.5vh;
+  text-decoration: none;
+  color: var(--color1);
+  transition: 0.3s ease;
+}
+a:hover {
+  background-color: #840014;
+  scale: 1.1;
+}
+
+.info-container {
+  padding: 3vh;
+  border-radius: 2vh;
+  background-color: var(--color3);
+  margin-inline: 35vh;
+  margin-block: 2vh;
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.images::-webkit-scrollbar {
+  height: 7px;
+
+}
+
+.images::-webkit-scrollbar-track {
+  background: none;
+  border-radius: 10px;
+}
+
+.images::webkit-scrollbar-thumb {
+  background: #ffffffae;
+  border-radius: 10px;
+}
+
+.images::webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.images {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.imageslide {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  overflow-x: auto;
+  margin: auto;
+  padding: 20px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 3vh;
+  border-width: 0.5vh;
+  border-color: var(--color4);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+img:hover {
+  scale: 1.1;
+}
+
+#information-h,
+#information-p {
+  transition: opacity 0.15s ease, transform 0.25s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
