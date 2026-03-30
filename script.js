@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       date: "Feb 7, 2026, 7:40pm",
       text: "This was when we were on call joking with each other. We were really happy but I was still trying to make sure you were happy because I was scared that you would get sad. Everything worked out though even though I couldn't sleep..."
     },
-    "img-two": { date: "Mar 27, 2026, 5:36pm", text: "You were handling your newborn chick in this picture and having fun while we were talking. We were really happy even though Josiah was being... Josiah" },
+    "img-two": { date: "Mar 27, 2026, 5:36pm", text: "You were handling your newborn chick in this picture and having fun while we were talking. We were really happy." },
     "img-three": { date: "Feb 27, 2026, 10:20pm", text: "We were there doing the dishes and I was making jokes. I was so scared... Everything worked out though and I got this AMAZING picture of my baby girl" },
     "img-four": { date: "Feb 23, 2026, 9:33pm", text: "We were about to go to bed and I was flashbanging you with facetime photos, and as always, I was extremely scared. We were having fun though. Alot of fun" },
     "img-five": { date: "Mar 6, 2026, 3:13pm", text: "You were on the way or leaving the marriage I think. It was very hot so you took your jacket off, but of course, you had to put it back on before going in. We were talking and you were kinda in a good mood but kinda not at the same time so I was very scared again!" },
