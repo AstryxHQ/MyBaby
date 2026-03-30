@@ -1,27 +1,27 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <title>Charts</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <title>Charts</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="script.js" defer></script>
-  <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-  <div class="main-container">
-    <div class="dash">
-
-    </div>
-    <div class="data">
-      <div class="pi">
-        <canvas id="pieChart"></canvas>
+  <body>
+    <div class="main-container">
+      <div class="dash">
+        <a href="../../"><img src="../../assets/Rebecca.png" class="rimg" /></a>
+        <a href="./"><h2>Dashboard</h2></a>
+        <a href="../future/"><h2>Future Plans</h2></a>
       </div>
-      <div class="line">
-        <canvas id="lineChart"></canvas>
+      <div class="data">
+        <div class="pi">
+          <canvas id="pieChart"></canvas>
+        </div>
+        <div class="line">
+          <canvas id="lineChart"></canvas>
+        </div>
       </div>
     </div>
-  </div>
-</body>
-
+  </body>
 </html>

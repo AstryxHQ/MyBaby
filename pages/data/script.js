@@ -7,7 +7,7 @@ new Chart(pieCtx, {
     labels: ['Thoughts', 'Cuts', 'No Cuts'],
     datasets: [{
       data: [500, 200, 1000],
-      backgroundColor: ['grey', 'black', 'white']
+      backgroundColor: ['#ff7474', '#8d0707', '#d10404']
     }]
   }
 });
@@ -22,7 +22,7 @@ new Chart(lineCtx, {
     datasets: [{
       label: 'Cuts',
       data: [100, 50, 120, 75, 0],
-      borderColor: 'black'
+      borderColor: '#d10404'
     }]
   }
 });
